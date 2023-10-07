@@ -9,35 +9,51 @@ img {
     width: 500px;
 }
 
+.text-large {
+    font-size: 56px;
+}
+
+.text-center {
+    text-align: center;
+}
+
 h2 {
     color: rgb(184, 82, 82)
 }
 
-.custom-link {
-    text-decoration: none;
-    /* font-size: 13px; */
+li {
+    font-size: 14px;
 }
 
-a:hover {
-    /* text-decoration: none; */
-    /* color:gray; */
-    font-weight: bold;
+.ul-none {
+    list-style: none;
+}
+
+
+.custom-link, 
+.return-link,
+#src-recipe {
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .return-link {
     color: brown;
     border-style: dashed;
     border-color: lightcoral;
-    text-decoration: none;
 }
 
 #src-recipe {
+    color: blueviolet;
     border-style: groove;
     border-color: lightblue;
-    text-decoration: none;
-    color: blueviolet;
+    
 }
 
-li {
-    font-size: 14px;
+a:hover {
+    font-weight: bold;
 }
+
+
+
+
