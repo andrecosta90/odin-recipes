@@ -1,0 +1,43 @@
+* {
+    background-color: lightyellow;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
+
+h2 {
+    color: rgb(184, 82, 82)
+}
+
+.custom-link {
+    text-decoration: none;
+    /* font-size: 13px; */
+}
+
+a:hover {
+    /* text-decoration: none; */
+    /* color:gray; */
+    font-weight: bold;
+}
+
+.return-link {
+    color: brown;
+    border-style: dashed;
+    border-color: lightcoral;
+    text-decoration: none;
+}
+
+#src-recipe {
+    border-style: groove;
+    border-color: lightblue;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+li {
+    font-size: 14px;
+}
