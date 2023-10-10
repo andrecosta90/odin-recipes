@@ -1,7 +1,7 @@
 * {
-    background-color: lightyellow;
+    background-color: #ffffe0;
     font-family: 'Courier New', Courier, monospace;
-    color: brown;
+    color: #8A2424;
 }
 
 img {
@@ -38,13 +38,13 @@ li {
 }
 
 .return-link {
-    color: brown;
+    /* color: brown; */
     border-style: dashed;
     border-color: lightcoral;
 }
 
 #src-recipe {
-    color: blueviolet;
+    color: #761CCA;
     border-style: groove;
     border-color: lightblue;
     
