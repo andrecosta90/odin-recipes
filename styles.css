@@ -1,32 +1,67 @@
-* {
-    background-color: #ffffe0;
-    font-family: 'Courier New', Courier, monospace;
-    color: #8A2424;
+body {
+    background: #ffffff;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #863737;
+    /* border: 1em solid black; */
+    /* color: #8A2424; */
+}
+
+.card {
+    width: 800px;
+    /* background: rgb(234, 234, 206); */
+    margin: 16px auto;
+    padding: 16px;
 }
 
 img {
-    height: auto;
     width: 500px;
+    margin: auto;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 16px;
+    border-radius: 25%;
+    /* background: rgb(234, 234, 206); */
 }
 
-.text-large {
-    font-size: 56px;
-}
-
-.text-center {
+.title,
+.subtitle {
     text-align: center;
+    background: #f5f5bd;
 }
 
-h2 {
-    color: rgb(184, 82, 82)
+.title {
+    font-size: 36px;
+    padding: 8px;
+    margin-top: 0;
+    margin-bottom: 16px;
 }
+
+.subtitle {
+    font-size: 24px;
+    padding: 8px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+/* h2 {
+    color: rgb(184, 82, 82)
+} */
 
 li {
     font-size: 14px;
+    padding: .2em;
 }
 
 .ul-none {
     list-style: none;
+}
+
+.sub-card {
+    /* padding: 8px; */
+    width: 256px;
+    margin: 0 auto;
+    /* background: rgb(245, 245, 189); */
 }
 
 
@@ -34,12 +69,18 @@ li {
 .return-link,
 #src-recipe {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
+    color: #943D3D;
 }
 
+.return-link-padding {
+    padding: 4px;
+    border-style: dashed;
+    width: 180px;
+}
 .return-link {
     /* color: brown; */
-    border-style: dashed;
+    /* border-style: dashed; */
     border-color: lightcoral;
 }
 
