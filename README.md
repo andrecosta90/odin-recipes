@@ -10,6 +10,7 @@ A simple website with a list of Brazilian recipes !
 + Unordered x Ordered lists
 + Links and Images
 + HTML validator/checker
++ Basic CSS
 
 ## Links
 - [Try it right now!](https://andrecosta90.github.io/odin-recipes)
